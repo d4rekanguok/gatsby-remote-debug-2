@@ -3,4 +3,6 @@ build:
   publish: "./public"
 
 plugins:
-  - type: ''
+  - type: './.yalc/netlify-ssg-cache'
+    config:
+      ssg: gatsby

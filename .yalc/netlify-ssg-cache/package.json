@@ -1,0 +1,16 @@
+{
+  "name": "netlify-ssg-cache",
+  "version": "1.0.0-alpha.2-c3222a85",
+  "description": "Persist cache folder for SSG between builds",
+  "main": "dist/index.js",
+  "author": "Derek Nguyen <derek@penandpillow.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p ./",
+    "prepublishOnly": "tsc -p ./"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
