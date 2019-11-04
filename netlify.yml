@@ -1,8 +1,0 @@
-build:
-  command: "yarn build"
-  publish: "./public"
-
-plugins:
-  - type: './.yalc/netlify-ssg-cache'
-    config:
-      ssg: gatsby
