@@ -26,7 +26,6 @@
     "gatsby-source-filesystem": "^2.1.31",
     "gatsby-transformer-remark": "^2.6.28",
     "gatsby-transformer-sharp": "^2.2.21",
-    "netlify-ssg-cache": "file:.yalc/netlify-ssg-cache",
     "prismjs": "^1.17.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -51,7 +50,6 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "netlify:build": "SSG=gatsby netlify-ssg-cache",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
